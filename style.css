@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:ital,wght@0,400;0,600;1,400&family=Lobster&display=swap');
+#bbb{
+    margin-left: 300px;
+    display: flex;
+   flex-direction: row;
+}
+.fxf{
+    font-family: Centurygothic, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 90px;
+    font-style: oblique;
+    text-align: left;
+    background: linear-gradient(45deg, #e66b07 33%, #f13000 66%, #ff0000);
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.322);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+#declaration{
+    font-family: Centurygothic, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    font-style: oblique;
+    text-align: left;
+    background: linear-gradient(45deg, #e66b07 33%, #f13000 66%, #ff0000);
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.322);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+
+body {
+	background: linear-gradient(90deg, #faf0cd, #fab397);
+}
+#glavnaya{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-bottom: #ff0000 ;
+    border-radius: 30px;
+}
+#pluses{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+}
+.plus{
+    background-color: #ffdead;
+    padding: 8px;
+    margin-left: 1cm;
+    border: 2px black;
+    border-radius: 30px;
+}
+.plus:hover{
+    animation-duration: 2s;
+    display: inline-block;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+#txt1{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    padding: 10px;
+    font-size: 20px;
+    background-color: rgb(223 223 222);
+    margin-left: 300px ;
+    font-weight:bold;
+    width: 14cm;
+    border: 3px solid black;
+    border-radius: 20px;
+    line-height: 1.5;
+}
+#osnova{
+    margin-top: 100px;
+    background-color: #f8dbdb;
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    width: 80%;
+    border: 2px solid ghostwhite;
+    border-radius: 0px 100px 100px 0px;
+    box-shadow: 20px 10px 10px rgb(241, 118, 3);
+}
+#main{
+    min-height: 500px;
+    min-width: 1200px;
+}
+
+  #za{
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+  }
+#frame{
+    
+   margin-left: 35%;
+}
+ #hhh{
+    text-shadow: 1px 1px 2px #ff0000;
+    text-align: left;
+font-family: Comic Sans MS, Comic Sans, cursive;
+font-size: 30px;
+color: white;
+ }
+ .pl{
+    width: 30%;
+    text-align: left;
+    padding: 3px;
+    background-color: #ffdead;
+    font-size: 20px;
+    font-family: Bradley Hand, cursive;
+    border: 3p solid white;
+    border-radius: 20px;
+    opacity: 0;
+    transition-duration:2s;
+ }
+ .pl:hover{
+    transform: scale(1.1);
+    transition-duration:  1s;
+ }
+ #images{
+    margin-left: 100px;
+ }
+ #img{
+    height:400px ;
+    width: 550px;
+    border: 3px solid silver ;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgb(110, 107, 107);
+ }
+ h2{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+ }
+    #otzov{
+    background-color: #f8dbdb;
+    border: 2px salmon;
+    border-radius: 20px;
+
+ }
+ #h22{
+    font-family: Centurygothic, Roboto, Helvetica, Arial, sans-serif;
+    color: #f13000;
+ }
+#otz{
+    background-color: #f8dbdb;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around
+}
+.otziv2{
+    height: 468px;
+    width: 216px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgb(87, 87, 87);
+    opacity: 0-1;
+    transition:  1.25s;
+}
+.otziv0,.otziv4{
+    margin-top: 100px;
+    height: 275px;
+    width: 127px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgb(87, 87, 87);
+    opacity: 0.4;
+    transition:  1.25s;
+}
+.otziv1,.otziv3{
+    margin-top: 50px;
+    height: 334px;
+    width: 154px;
+    border-radius: 10px;
+    box-shadow: 10px 5px 5px rgb(87, 87, 87);
+    opacity: 0.7;
+    transition:  1.25s;
+}
+
+hr{
+    box-shadow: 10px 5px 5px rgb(133, 15, 15);;
+}
+
+
+
+
+.otziv5,.otziv6,.otziv7,.otziv8,.otziv9:hover{
+    transform: scale(1.2);
+    transition-duration:  1s; 
+}
+#map{
+    height: 1000px;
+    width: 100px;
+}
+#car{
+    height: 400px;
+    width: 600px;
+    margin-bottom: 100px;
+}
+ #act{
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ }
+ #save{
+    font-size: 40px;
+ }
