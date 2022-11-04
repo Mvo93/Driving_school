@@ -38,7 +38,6 @@ spis.forEach(function(item,index){
 }
 )
 let otz=document.querySelector("#osnova")
-//otz.style.boxShadow = '0 0 10px rgba(0,0,0,0.5)'
 setInterval(function(){
     otz.style.boxShadow = `20px 10px 10px #${randColor()}`
 },500)
@@ -57,7 +56,7 @@ let y=0
 function go2(){
     y+=3
     document.querySelector("#second_car").style.transform = `translate(0px, ${y}px)`
-if (y==570)
+if (y==1200)
 clearInterval(fly2)
 }
 let fly2=setInterval(go2,30)
