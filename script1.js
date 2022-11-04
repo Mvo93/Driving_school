@@ -53,8 +53,14 @@ function randColor(){
     return answer
 }
 randColor()
-body.addEventListener("click",function(){console.log(this)})
-
+let y=0
+function go2(){
+    y+=3
+    document.querySelector("#second_car").style.transform = `translate(0px, ${y}px)`
+if (y==570)
+clearInterval(fly2)
+}
+let fly2=setInterval(go2,30)
 
 
 
