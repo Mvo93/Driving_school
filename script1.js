@@ -15,9 +15,19 @@ arr.forEach(function(item,index){
 })
 blo.innerHTML=result
 arr.unshift(arr.pop())
+move()
 }
-setInterval(rendert,2000)
-
+setInterval(rendert,3000)
+function move(){
+let otziv0= document.querySelector(".otziv0")
+let otziv1=document.querySelector(".otziv1")
+let step=setInterval(function(){
+    otziv1.style.scale=`1.4`
+    otziv0.style.transform = `translate(310px, -43px)`
+    otziv1.style.transform = `translate(280px, -40px)`
+    otziv0.style.scale=`1.2`
+},1800)
+}
 },2000)
 let x=0
 function go(){
@@ -59,8 +69,10 @@ function go2(){
 if (y==1200)
 clearInterval(fly2)
 }
-let fly2=setInterval(go2,30)
 
+let fly2=setInterval(go2,30)
+let road=document.querySelector("#main_road")
+road.addEventListener("scroll",()=>console.log("рулл"))
 
 
 
